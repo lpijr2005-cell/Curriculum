@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currículum Multimedia - Lucas Pacheco</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+                <!-- SVG obligatorio -->
+                <svg width="32" height="32" viewBox="0 0 100 100" aria-label="Logo LP">
+                    <circle cx="50" cy="50" r="45" fill="#0d6efd" />
+                    <text x="50" y="58" text-anchor="middle" font-size="32" fill="white" font-family="Arial">LP</text>
+                </svg>
+                Lucas Pacheco
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#multimedia">Multimedia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera / Hero -->
+    <header id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-md-6 hero-content">
+                    <h1>Hola, soy Lucas Pacheco</h1>
+                    <p class="lead">
+                        Estudiante de desarrollo web y futuro desarrollador frontend.
+                    </p>
+                    <p>
+                        Me interesa crear páginas web modernas, responsive y fáciles de usar.
+                        Actualmente estoy aprendiendo HTML, CSS, JavaScript, Bootstrap y otros
+                        lenguajes de programación.
+                    </p>
+
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#contacto" class="btn btn-primary btn-lg">
+                            Contactar
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-lg">
+                            Descargar CV
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center mt-5 mt-md-0">
+                    <!-- Imagen 1: perfil -->
+                    <img src="/assets/foto curriculum multimedia.jpeg"
+                        alt="Foto de perfil de Lucas Pacheco" class="img-fluid rounded-circle profile-img shadow">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="section-padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2>Sobre mí</h2>
+                        <p>
+                            Soy Lucas Pacheco, una persona motivada, responsable y con muchas ganas
+                            de seguir aprendiendo en el mundo del desarrollo web.
+                        </p>
+                        <p>
+                            Me gusta trabajar en proyectos donde pueda combinar creatividad,
+                            diseño y programación. Busco mejorar mis habilidades técnicas y
+                            adquirir experiencia creando sitios web funcionales y atractivos.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card simple-card">
+                            <div class="card-body">
+                                <h3 class="h5">Datos personales</h3>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Nombre:</strong> Lucas Pacheco</li>
+                                    <li><strong>Perfil:</strong> Técnico de desarrollo de aplicaciones web</li>
+                                    <li><strong>Especialidad:</strong> Fullstack</li>
+                                    <li><strong>Disponibilidad:</strong> Prácticas / Trabajo a tiempo completo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Habilidades</h2>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card skill-card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">HTML</h3>
+                                <p>
+                                    Estructuración de páginas web con etiquetas semánticas y buenas prácticas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card skill-card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">CSS</h3>
+                                <p>
+                                    Diseño visual, maquetación responsive, animaciones y transiciones sencillas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card skill-card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">Angular</h3>
+                                <p>
+                                    Creación rápida de aplicaciones web mediante el uso de componentes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card skill-card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">JavaScript</h3>
+                                <p>
+                                    Funcionalidades interactivas básicas para mejorar la experiencia del usuario.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card skill-card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">Git y GitHub</h3>
+                                <p>
+                                    Control de versiones, repositorios y publicación de páginas con GitHub Pages.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card skill-card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">PHP + Laravel</h3>
+                                <p>
+                                    Creación de aplicaciones tanto frontend como backend con PHP y el framework Laravel.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiencia / Proyectos -->
+        <section id="proyectos" class="section-padding">
+            <div class="container">
+                <h2 class="text-center mb-4">Experiencia y proyectos</h2>
+
+                
+
+                <div class="row g-4 mt-4">
+                    <div class="col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">Página responsive con Bootstrap</h3>
+                                <p>
+                                    Maquetación de una página adaptable usando el sistema de grid
+                                    de Bootstrap, componentes y estilos personalizados.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">Prácticas de programación</h3>
+                                <p>
+                                    Ejercicios con lenguajes aprendidos durante el curso para mejorar
+                                    la lógica y la resolución de problemas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Multimedia -->
+        <section id="multimedia" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Contenido multimedia</h2>
+
+                <div class="row g-4">
+                    <!-- Vídeo -->
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">Vídeo de presentación</h3>
+                                <p>
+                                    Vídeo breve de presentación personal para una empresa.
+                                </p>
+
+                                <div class="ratio ratio-16x9">
+                                    
+                                    <iframe src="assets/Video_presentacion_Lucas_Pacheco.mp4"
+                                        title="Vídeo de presentación de Lucas Pacheco" allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Audio -->
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">Audio: Top 5 lenguajes aprendidos</h3>
+                                <p>
+                                    Audio de aproximadamente 1 minuto explicando el top 5 de lenguajes
+                                    de programación trabajados durante el curso.
+                                </p>
+
+                                <audio controls class="w-100">
+                                    <source src="assets/Audio_Top5_Lenguajes.ogg" type="audio/ogg">
+                                    Tu navegador no soporta la reproducción de audio.
+                                </audio>
+
+                                <ol class="mt-3">
+                                    <li>PHP</li>
+                                    <li>Angular + Javascript/Typescript</li>
+                                    <li>SQL/MariaDB</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ol>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="section-padding">
+            <div class="container">
+                <h2 class="text-center mb-4">Contacto</h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form class="card contact-card">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="email" placeholder="ejemplo@email.com">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="mensaje" rows="4"
+                                        placeholder="Escribe tu mensaje">
+                  </textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">
+                                    Enviar mensaje
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Widget de usabilidad -->
+    <div class="accessibility-widget" aria-label="Widget de accesibilidad">
+
+        <button class="accessibility-main-btn" id="openAccessibility" aria-expanded="false"
+            aria-controls="accessibilityPanel">
+            ♿ Usabilidad
+        </button>
+
+        <div class="accessibility-panel" id="accessibilityPanel">
+            <div class="accessibility-header">
+                <h2>Herramientas de usabilidad</h2>
+                <button id="closeAccessibility" class="close-widget" aria-label="Cerrar widget">
+                    ×
+                </button>
+            </div>
+
+            <!-- Sección Texto -->
+            <div class="accessibility-section">
+                <h3>Texto</h3>
+
+                <button class="accessibility-option" id="increaseText">
+                    Aumentar texto
+                </button>
+
+                <button class="accessibility-option" id="increaseLineHeight">
+                    Aumentar altura de línea
+                </button>
+            </div>
+
+            <!-- Sección Visual -->
+            <div class="accessibility-section">
+                <h3>Visual</h3>
+
+                <button class="accessibility-option" id="toggleContrast">
+                    Alto contraste
+                </button>
+
+                <button class="accessibility-option" id="toggleGrayScale">
+                    Escala de grises
+                </button>
+            </div>
+
+            <!-- Sección Orientación -->
+            <div class="accessibility-section">
+                <h3>Orientación</h3>
+
+                <button class="accessibility-option" id="highlightLinks">
+                    Resaltar enlaces
+                </button>
+
+                <button class="accessibility-option" id="readingMask">
+                    Máscara de lectura
+                </button>
+            </div>
+
+            <button class="reset-accessibility" id="resetAccessibility">
+                Restablecer
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">
+            © 2025 Lucas Pacheco - Currículum Multimedia
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JS propio -->
+    <script src="js/usability.js"></script>
+</body>
+
+</html>
